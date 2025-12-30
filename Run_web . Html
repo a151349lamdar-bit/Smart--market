@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>بازار هوشمند - نسخه وب</title>
+    <style>
+        body {
+            font-family: 'Vazir', Tahoma;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: white;
+            color: #333;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        .logo {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        .features {
+            text-align: right;
+            margin: 30px 0;
+        }
+        .feature-item {
+            background: #f8f9fa;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 10px;
+            border-right: 5px solid #4CAF50;
+        }
+        .buttons {
+            margin-top: 30px;
+        }
+        button {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            margin: 10px;
+            border-radius: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            font-family: 'Vazir';
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🛍️ بازار هوشمند</div>
+        <h1>به بازار هوشمند خوش آمدید!</h1>
+        <p>پلتفرم کامل خرید و فروش با هوش مصنوعی</p>
+        
+        <div class="features">
+            <h2>✨ ویژگی‌های اصلی:</h2>
+            <div class="feature-item">🎯 قیمت‌گذاری هوشمند رایگان</div>
+            <div class="feature-item">📱 فروشگاه آنلاین رایگان</div>
+            <div class="feature-item">🤖 تحلیل عکس با هوش مصنوعی</div>
+            <div class="feature-item">🎁 ۶ ماه رایگان برای همه</div>
+            <div class="feature-item">⭐ سطح‌بندی کاربری با رنگ</div>
+            <div class="feature-item">🔍 جستجوی پیشرفته</div>
+        </div>
+        
+        <div class="buttons">
+            <button onclick="alert('نسخه کامل به زودی قابل دانلود است')">📱 دانلود اپلیکیشن</button>
+            <button onclick="window.open('https://github.com/a151349lan/smart-market', '_blank')">💾 مشاهده سورس کد</button>
+            <button onclick="showContact()">📞 تماس با پشتیبانی</button>
+        </div>
+        
+        <div style="margin-top: 40px; color: #666; font-size: 14px;">
+            <p>💰 مدل درآمدی: فقط تبلیغات اختیاری | همه خدمات رایگان</p>
+            <p>🎁 پاداش: ۶ ماه رایگان + ۳ ماه به ازای هر معرفی</p>
+        </div>
+    </div>
+    
+    <script>
+        function showContact() {
+            alert('📧 ایمیل: support@market.ir\n📱 تلگرام: @smart_market_ir\n\nساخته شده با ❤️ برای ایران');
+        }
+    </script>
+</body>
+</html>
